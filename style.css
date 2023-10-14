@@ -534,7 +534,7 @@ nav .fa-solid {
 }
 @media (max-width: 425px){
     .header-text {
-        margin-top: 75%;
+        margin-top: 118%;
         font-size: 20px;
     }
 }
@@ -546,13 +546,13 @@ nav .fa-solid {
         color: antiquewhite;
     }
     .header-text {
-        margin-top: 85%;
+        margin-top: 118%;
         font-size: 18px;
     }
 }
 @media (max-width: 325px){
     .header-text {
-        margin-top: 105%;
+        margin-top: 158%;
         font-size: 18px;
     }
 }
