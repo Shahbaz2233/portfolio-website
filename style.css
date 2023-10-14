@@ -70,7 +70,8 @@ nav ul li a:hover::after {
 }
 
 .header-text {
-    margin-top: 25%;
+    position: absolute;
+    top: 300px;
     font-size: 30px;
 }
 
@@ -153,7 +154,7 @@ nav ul li a:hover::after {
 }
 
 .tab-contents ul{
-    padding-left: 0px;
+    padding-left: 20px;
 }
 
 .tab-contents ul li span {
@@ -440,12 +441,18 @@ nav .fa-solid {
 
 @media (max-width: 1080px){
     .header-text {
-        margin-top: 35%;
+        position: absolute;
+        top: 200px;
         font-size: 30px;
     }
 }
 
 @media (max-width: 768px){
+    .header-text {
+        position: absolute;
+        top: 230px;
+        font-size: 30px;
+    }
     .logo {
         width: 154px;
     }
@@ -462,7 +469,7 @@ nav .fa-solid {
     }
 
     .header-text {
-        margin-top: 100%;
+        /* margin-top: 100%; */
         font-size: 16px;
     }
 
@@ -534,8 +541,9 @@ nav .fa-solid {
 }
 @media (max-width: 425px){
     .header-text {
-        margin-top: 118%;
-        font-size: 20px;
+            position: absolute;
+            top: 290px;
+            font-size: 20px;
     }
 }
 @media (max-width: 375px){
@@ -546,13 +554,14 @@ nav .fa-solid {
         color: antiquewhite;
     }
     .header-text {
-        margin-top: 118%;
+        position: absolute;
+        top: 300px;
         font-size: 18px;
     }
 }
 @media (max-width: 325px){
     .header-text {
-        margin-top: 158%;
+        /* margin-top: 158%; */
         font-size: 18px;
     }
 }
